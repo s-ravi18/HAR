@@ -1,2 +1,2 @@
 # HAR
-HUMAN ACTIVITY RECOGNITION USING MACHINE LEARNING
+Handwriting Recognition and Activity Recognition
