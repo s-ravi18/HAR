@@ -1,0 +1,51 @@
+Stacked Ensemble Results::
+
+1. After the Stratified Sampling was done::
+
+ - AutoKeras Model:: 0.982 (max_iterations=28)
+
+ - Base Models::
+    "1": {
+        "accuracy": 0.9622785925865174,
+        "val_accuracy": 0.9875285625457764
+    },
+    "2": {
+        "accuracy": 0.9796869874000549,
+        "val_accuracy": 0.9883680939674377
+    },
+    "3": {
+        "accuracy": 0.9886563897132874,
+        "val_accuracy": 0.9885701537132263
+    }
+
+ - Metalearner Accuracy::
+
+
+
+2. After the Random Sampling was done::
+
+ - AutoKeras Model:: 0.984 (max_iterations=28)
+
+ - Base Model Accuracy::
+    "1": {
+        "accuracy": 0.9696489930152893,
+        "val_accuracy": 0.9868967413902283
+    },
+    "2": {
+        "accuracy": 0.982738983631134,
+        "val_accuracy": 0.9883926630020141
+    },
+    "3": {
+        "accuracy": 0.9894938468933105,
+        "val_accuracy": 0.9875257134437561
+    }
+
+ - Metalearner Accuracy::
+{
+    "XGB": 1.0,
+    "LGBM": 1.0,
+    "RandomForest": 0.9991,
+    "LR": 0.98876,
+    "CatBoost": 1.0,
+    "Naive Bayes": 0.98839
+}
