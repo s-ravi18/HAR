@@ -20,15 +20,15 @@ Stacked Ensemble Results for (IMU)::
 
  - Metalearner Accuracy::
 {
-    "XGB": 1.0,
-    "LGBM": 1.0,
-    "RandomForest": 0.99578,
-    "LR": 0.90958,
-    "CatBoost": 0.98422,
-    "Naive Bayes": 0.78864,
-    "SVC": 0.9005,
-    "KNN_3": 0.95249,
-    "KNN_5": 0.94083
+    "XGB": 0.94066,
+    "LGBM": 0.94309,
+    "RandomForest": 0.92821,
+    "LR": 0.90694,
+    "CatBoost": 0.93803,
+    "Naive Bayes": 0.78763,
+    "SVC": 0.89849,
+    "KNN_3": 0.91633,
+    "KNN_5": 0.91739
 }
 
 2. After the Random Sampling was done::

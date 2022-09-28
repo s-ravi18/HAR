@@ -20,12 +20,15 @@ Stacked Ensemble Results for (EMG)::
 
  - Metalearner Accuracy::
 {
-    "XGB": 1.0,
-    "LGBM": 1.0,
-    "RandomForest": 0.99926,
-    "LR": 0.98654,
-    "CatBoost": 1.0,
-    "Naive Bayes": 0.98559
+    "XGB": 0.95911,
+    "LGBM": 0.96171,
+    "RandomForest": 0.95347,
+    "LR": 0.95088,
+    "CatBoost": 0.96078,
+    "Naive Bayes": 0.91568,
+    "SVC": 0.95107,
+    "KNN_3": 0.94548,
+    "KNN_5": 0.94852
 }
 
 2. After the Random Sampling was done::
