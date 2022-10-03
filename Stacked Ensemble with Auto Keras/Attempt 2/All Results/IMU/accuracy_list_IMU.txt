@@ -1,0 +1,63 @@
+Stacked Ensemble Results for (IMU)::
+
+1. After the Stratified Sampling was done::
+
+ - AutoKeras Model:: 0.891 (max_iterations=28)
+
+ - Base Models::    
+    "1": {
+        "accuracy": 0.7723694443702698,
+        "val_accuracy": 0.8455290079116822
+    },
+    "2": {
+        "accuracy": 0.7931547999382019,
+        "val_accuracy": 0.8538426399230957
+    },
+    "3": {
+        "accuracy": 0.8016512632369995,
+        "val_accuracy": 0.8595381736755371
+    }
+
+ - Metalearner Accuracy::
+{
+    "XGB": 0.94066,
+    "LGBM": 0.94309,
+    "RandomForest": 0.92821,
+    "LR": 0.90694,
+    "CatBoost": 0.93803,
+    "Naive Bayes": 0.78763,
+    "SVC": 0.89849,
+    "KNN_3": 0.91633,
+    "KNN_5": 0.91739
+}
+
+2. After the Random Sampling was done::
+
+ - AutoKeras Model:: 0.88 (max_iterations=28)
+
+ - Base Model Accuracy::
+    "1": {
+        "accuracy": 0.7936505794525146,
+        "val_accuracy": 0.8585072994232178
+    },
+    "2": {
+        "accuracy": 0.7988805770874023,
+        "val_accuracy": 0.8540854096412659
+    },
+    "3": {
+        "accuracy": 0.8041596055030823,
+        "val_accuracy": 0.8570351362228393
+    }
+
+ - Metalearner Accuracy::
+{
+    "XGB": 0.9395,
+    "LGBM": 0.94172,
+    "RandomForest": 0.92878,
+    "LR": 0.90741,
+    "CatBoost": 0.93866,
+    "Naive Bayes": 0.79788,
+    "SVC": 0.89859,
+    "KNN_3": 0.91844,
+    "KNN_5": 0.9186
+}

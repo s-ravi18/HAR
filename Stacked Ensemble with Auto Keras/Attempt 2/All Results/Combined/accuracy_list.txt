@@ -1,0 +1,32 @@
+Stacked Ensemble Results for (EMG+IMU)::
+
+1. After the Random Sampling was done::
+
+ - AutoKeras Model:: 0.991 (max_iterations=28)
+
+ - Base Model Accuracy::
+    "1": {
+        "accuracy": 0.9902603149414062,
+        "val_accuracy": 0.9933467984199524
+    },
+    "2": {
+        "accuracy": 0.9921610713005066,
+        "val_accuracy": 0.99403315782547
+    },
+    "3": {
+        "accuracy": 0.9940217971801758,
+        "val_accuracy": 0.9938759326934814
+    }
+
+ - Metalearner Accuracy::
+{
+    "XGB": 0.99472,
+    "LGBM": 0.99429,
+    "RandomForest": 0.99471,
+    "LR": 0.99451,
+    "CatBoost": 0.99492,
+    "Naive Bayes": 0.99029,
+    "SVC": 0.99493,
+    "KNN_3": 0.9945,
+    "KNN_5": 0.99429
+}
